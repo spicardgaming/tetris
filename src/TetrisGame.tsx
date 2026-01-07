@@ -931,9 +931,24 @@ const TetrisGame: React.FC = () => {
                 <li>P or Esc — pause / resume</li>
               </ul>
             </div>
-            <div className="w-full flex justify-center mt-3">
-              <img src="spikrard-gaming-logo-white.png" alt="Spikrard Gaming logo" className="w-28 opacity-90" />
-            </div>
+          
+          <div className="w-full flex flex-col items-center mt-3 gap-2">
+  <img
+    src="/spikrard-gaming-logo-white.png"
+    alt="Spikrard Gaming logo"
+    className="w-28 opacity-90"
+  />
+
+  <a
+    href="https://50-spins.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-xs text-slate-300 hover:text-white underline underline-offset-4"
+  >
+    Free spins from partners 
+  </a>
+</div>
+
           </div>
         </div>
       </div>
